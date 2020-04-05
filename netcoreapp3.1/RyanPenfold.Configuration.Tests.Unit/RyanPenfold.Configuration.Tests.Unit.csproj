@@ -35,7 +35,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\netstandard2.0\RyanPenfold.Configuration\RyanPenfold.Configuration.csproj" />
+    <ProjectReference Include="..\..\netstandard2.1\RyanPenfold.Configuration\RyanPenfold.Configuration.csproj" />
   </ItemGroup>
 
   <ItemGroup>

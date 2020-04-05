@@ -4,13 +4,13 @@ namespace RyanPenfold.Configuration
 {
     public class ConnectionStrings
     {
-        protected static ConnectionStrings _instance;
+        private static ConnectionStrings _instance;
 
-        protected ConnectionStrings()
+        private ConnectionStrings()
         {
         }
 
-        protected static ConnectionStrings Instance
+        private static ConnectionStrings Instance
         {
             get { return _instance ??= new ConnectionStrings(); }
         }
